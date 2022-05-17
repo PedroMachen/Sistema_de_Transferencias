@@ -1,0 +1,92 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cursos</title>
+	<link rel="shortcut icon" href="../icon/piano.ico">
+
+
+	<link rel="stylesheet" href="../css/navbar.css">
+	<link rel="stylesheet" href="../css/Parraf.css">
+	<link rel="stylesheet" href="../css/carrusel.css">
+	<link rel="stylesheet" href="../css/background.css">
+	<link rel="stylesheet" href="../css/style_cursos.css">
+	<link rel="stylesheet" href="../css/footer.css">
+	<link rel="stylesheet" href="../css/calcu.css">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+
+
+
+	<div class="contenedor ">
+		<ul class="navbar_piano">
+			<li class="li col"><a href="index2.html">Inicio</a></li>
+			<li class="li"><a href="Acercade.html">Acerca de nosotros</a></li>
+			<li class="li"><a class="activar" href="#instrumentos">Instrumentos</a></li>  
+		</ul>
+	</div>
+	<div class="container" style="margin-top:30px">
+		<div class="row">
+			<div class="col-sm-6">
+				<form action="instrumentos.php" method="post">
+					<img src="../img/Bongos.jpg" width="300">
+					<input name="a" value="Bongos">
+					<input type="submit" value="Pedir">
+				</form>
+				<form action="instrumentos.php" method="post">
+					<label>Flautas </label>
+					<input name="a" value="Flauta Dulce">
+					<input type="submit" value="Pedir">
+				</form>
+				<form action="instrumentos.php" method="post">
+					<label>Guitarra</label>
+					<input name="a" value="Guitarra">
+					<input type="submit" value="Pedir">
+				</form>
+			</div>
+			<div class="col-sm-6">
+				<h3>Producto selecionado: ',$row["nombreProducto"],'</h3>
+				<div class="table-responsive">
+					<div class="container table-responsive">
+						<div style="width: 70%">
+							<table class="table table-sm table-bordered table-dark table-hover">
+								<thead class=" thead-light">
+									<tr>
+										<th>Id del producto</th>
+										<th>Nombre del producto</th>
+										<th>Cantidad disponible</th>
+									</tr>
+								</thead>
+								<tbody>
+
+									<tr>
+										<td>'Esoja un producto'</td>
+										<td>',$row["nombreProducto"],'</td>
+										<td>',$row["cantidadProducto"],'</td>   
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+</div>
+
+
+<div class="footer">
+	<footer>Hecho por Carlos Segovia y Daniel Soto</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+.hola{
+  padding-top: 600px;
+
+}
+.parrafo{
+  text-align: center;
+  font-family: Palatino Linotype;
+  font-size: 50px;
+  color: #000000;
+}
+
+
+.et2{
+  font-family: Impact;
+  font-size: 40px;
+  color: #000000;
+
+}
+.titulo{
+  font-family: Impact;
+  font-size:80px;
+  color: #000000;
+  margin-top: 70px;
+	margin-left: 20%;
+}
+
+.lab{
+  font-size:30px; 
+  color: #000000;
+}
+.row_boton{
+    margin-top: 10px;
+}
+
+}
