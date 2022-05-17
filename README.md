@@ -8,6 +8,12 @@ Cada cliente cuenta con una cuenta bancaria donde tiene su dinero, dichas cuenta
 ## Tecnologías que se utilizarán
 
 ### A continuación se muestras las tecnologias necesarias para el proyecto
-Bootstrap 5, Hojas de estilo css, javascript, php, phpmyadmin
+
+Bootstrap y HTML 5, son tecnología que se van a utilizar para facilitar la elaboración del Fron-end del proyecto.
+Hojas de estilo css acompañan el estilo de nuestro Front-end.
+Javascript será una tecnología para la verificación de datos dentro de los formularios.
+PHP hará la función de la conexión entre la base de datos y nuestra interfaz. 
+PHPMyAdmin lo tilizaremos para la elaboración de la base de datos.
+
 ### Editor de texto
 -[sublime text 3](https://www.sublimetext.com/3)
