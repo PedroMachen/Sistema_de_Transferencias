@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<title>Registrar</title>
+		<link rel='shortcut icon' href='../icon/piano.ico'>
+		
+		<link rel='stylesheet' href='../css/navbar.css'>
+		<link rel='stylesheet' href='../css/Parraf.css'>
+		<link rel='stylesheet' href='../css/carrusel.css'>
+		<link rel='stylesheet' href='../css/background.css'>
+		<link rel='stylesheet' href='../css/style_contact.css'>
+		<link rel='stylesheet' href='../css/footer.css'>
+
+		<meta charset='utf-8'>
+	  	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	  	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css'>
+		<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+		<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js'></script>
+		<script src='../js/mensaje.js'></script>
+<body>
+	<div class='contenedor'>
+			<ul class='navbar_piano'>
+			  <li class='li' id='derecha'><a href='Carrito.html'>Carrito de compras</a></li> 
+			</ul>
+
+		</div>
+	<h2 class="titulo_contacto">Formulario de registro</h2>
+
+		<form action="Registrar.php" method="post">
+			<fieldset>
+				<center>
+				<div class="estilo">
+					<label class="label_contact">Nombre</label><br>
+					<input class="input_style" name="name" autocomplete="off">	
+				</div>
+				
+				<div class="estilo">
+					<label class="label_contact">Telefono</label><br>
+					<input class="input_style" name="telefono" autocomplete="off">
+				</div>
+
+				<div class="estilo">
+					<label class="label_contact">Correo</label><br>
+					<input class="input_style" name="correo" autocomplete="off">
+				</div>
+
+				<div class="estilo">
+					<label class="label_contact">Nombre de Usuario</label><br>
+					<input class="input_style" name="nameUsuario" autocomplete="off">
+				</div>
+				
+				<div class="estilo">
+					<label class="label_contact">Dirección</label><br>
+					<input class="input_style" name="direccion" autocomplete="off">
+				</div>
+				
+				<div class="estilo">
+					<center><label class="label_contact">Contraseña</label></center><br>
+					<input class="input_style" name="pass" type="password" autocomplete="off">
+				</div>
+
+				<div class="estilo">
+					<center>
+					<input class="label_contact" type="submit" name="Enviar">	
+					</center>
+					
+				</div>
+				<br><br><br><br>
+				</center>
+
+				
+			<!--	<div class="estilo">
+					<label class="label_contact">Mensaje</label><br>
+					<textarea class="text_area_style" id="msj"></textarea>
+					<button class="style_button" onclick="validarContacto()">Enviar</button>
+				</div>
+
+			-->
+			</fieldset>
+		</form>
+</body>
+</html>
