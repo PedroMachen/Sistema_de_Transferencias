@@ -1,6 +1,6 @@
 
 # Sistema_de_Transferencias
-Introducción 
+Introducción:
 
 Actualmente no se cuenta con un sistema de transferencias de dinero entre los clientes del banco, por lo que se requiere la creación de un sistema por el cuál un cliente pueda hacerle una transferencia a otro cliente de su cuenta bancaria. 
 
