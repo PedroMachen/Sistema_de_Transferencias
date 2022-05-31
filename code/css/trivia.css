@@ -1,0 +1,42 @@
+.titulo_trivia{
+	margin-left: 40%;
+	margin-bottom: 100px;
+	font-family: FreeMono;
+	color: blue;
+	font-size: 75px; 
+}
+.preguntas{
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-family: FreeMono;
+	color: black;
+	font-size: 50px; 
+}
+.alinear{
+	margin-left: auto;
+	margin-bottom: 100px;
+
+}
+.style_button{
+	margin-left: 10px;
+	margin-top: 20px;
+	background-color: pink;
+	font-size: 30px;
+	color: pink;
+	border-radius: 8px;
+}
+.boton_enviar{
+	margin-left: 1%;
+	margin-top: 100px;
+	margin-bottom: 30px;
+	background-color: red;
+	font-size: 60px;
+	color: black;
+	border-radius: 8px;
+
+}
+.container{
+	color: pink;
+	font-size: 25px;
+}

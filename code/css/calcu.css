@@ -1,0 +1,69 @@
+form {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: solid 1px #c2c2c2;
+  padding-bottom: 10px;
+  margin: auto;
+  background: #6B730A;
+}
+input[type=textfield] {
+    width: 90%;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 8px 0;
+    border: 1px solid gray;
+    border-radius: 1px;
+    text-align: left;
+    color: #333;
+    background: #aaa;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #FFE228;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    min-width: 21%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #CBB52C;
+}
+#calcu{
+    text-align: right;
+}
+.contenedor_calcu{
+    margin-top: 99%;
+    size: 50%;
+
+}
+.overlay { 
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target{
+  visibility: visible;
+  opacity: 1;
+}
+#popupBody{
+    
+    width: 46%;
+padding: 2%;
+    border-radius: 15px;
+box-shadow: 0 0 5px #CCC;
+    background: #FFF;
+position: relative;
+margin: 20% auto;
+    transition: all 5s ease-in-out;
+}

@@ -1,0 +1,13 @@
+.fondo{
+  background-image: url(../img/fondo3.jpg);  
+  background-position: center; /* Center the image */
+  background-repeat: repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-color:whitesmoke;
+}
+/*.fondoSesion{
+	
+	background: url(../img/ima.jpg);
+	background-repeat: no-repeat;
+	background-size: 50%;
+}*/

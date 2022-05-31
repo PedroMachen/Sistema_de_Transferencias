@@ -1,0 +1,47 @@
+.estilo_redsocial{
+	margin-top: 50px;
+}
+
+.image_style{
+	padding: 10px;
+	cursor: pointer;	
+}
+.titulo_about{
+	margin-top: 30px;
+	margin-left: 20px;
+	font-family: Jazz LET;
+	font-size: 65px;
+	color: #bb1743;
+
+}
+#texto_arriba{
+	margin-top: 100px;
+}
+.parrafo{
+	text-align: left;
+	font-size: 40px;
+
+}
+/*
+<div class="row">
+			<div class="col-sm-4" id="col">
+			<a href="https://www.elespectador.com/entretenimiento/musica/e-tune-presenta-su-proyecto-musical-perreologia/" target="_blank"><img src="https://www.elespectador.com/resizer/9TsEkdJyPIDLqZ3MO7_u939G_xc=/657x0/cloudfront-us-east-1.images.arcpublishing.com/elespectador/73GKXLDNEBCRLFNEC6PBANFS6E.jpg" width="600" height="400"></a>
+			</div>
+			<div class="desc_noti">Harry Styles estrena el video “Golden”</div>
+
+		</div>
+		<div class="row">
+			<div class="col-sm-4" id="col">
+			<a href="https://www.elespectador.com/entretenimiento/musica/gorillaz-lanza-album-song-machine/" target="_blank"><img src="https://www.elespectador.com/resizer/aLZjFnEm0ZxD5r0bvD2nfpt6How=/657x0/cloudfront-us-east-1.images.arcpublishing.com/elespectador/P44GJQMV6RC7XC65JBOD4GWEMM.jpg"></a>
+			</div>
+			<div class="desc_noti">Gorillaz estará en vivo con el show “Song machine live”</div>
+
+		</div>
+		<div class="row">
+			<div class="col-sm-4" id="col">
+			<a href="https://www.elespectador.com/entretenimiento/musica/menudo-subete-a-mi-moto-pero-antes-trepa-un-arbol/" target="_blank"><img src="https://www.elespectador.com/resizer/5VEdb6zQuBB6gPNNcnqpZ1ee-Qw=/657x0/cloudfront-us-east-1.images.arcpublishing.com/elespectador/2B4QBQSHGNFHRNC4DSX2JYEMKE.jpg"></a>
+			</div>
+			<div class="desc_noti">Menudo: “Súbete a mi moto”, pero antes trepa un árbol</div>
+
+		</div>
+*/

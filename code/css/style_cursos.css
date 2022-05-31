@@ -1,0 +1,45 @@
+.galeria{
+	
+	margin-top: 40px;
+	margin-right: 1000px;
+	margin-left: 50px;
+	margin-bottom: 100px;
+	float: left;
+	width: 800px;
+	background-color: white;
+}
+
+.izquierda{
+	float: left;
+	height: 100%;
+}
+.derecha{
+	float: right;
+}
+.galeria:hover{
+	background-color: gray;
+	border: 2px solid blue;
+}
+.galeria img{
+	float: left;
+	width: 40%;
+	height: auto;
+	margin-right: 10px;
+}
+.descripcion{
+	font-family: Arial Black;
+	font-size: 20px;
+	color: #000000;
+}
+.descripcion .parraf{
+	font-size: 50px;
+	font-family: Brush Script MT;
+}
+.titulo_curso{
+	margin-left: 50px;
+	font-family: FreeMono;
+	color: #a7a716;
+	font-size: 65px;
+}
+
+

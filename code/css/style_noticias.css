@@ -1,0 +1,26 @@
+.titulo_noticias{
+	margin-top: 50px;
+	margin-left: 20px;
+	color:#000000;
+}
+.galeria_noticias{
+  background-color: white;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 435px;
+}
+.galeria_noticias:hover{
+	border: 1px solid #777;
+}
+.galeria_noticias img{
+	width: 100%;
+    height: auto;
+}
+.desc_noti{
+	 background-color: white;
+	 width: 300px;
+	 color: black;
+	 padding: 15px;
+ 	
+}
