@@ -9,9 +9,9 @@ Cada cliente cuenta con una cuenta bancaria donde tiene su dinero, dichas cuenta
 ## Tecnologías que se utilizarán
 
 ### A continuación se muestras las tecnologias necesarias para el proyecto
-![Alt text](Diseño/unnamed.png?raw=true "Title") 
+![Alt text](Diseño/tec.jpg?raw=true) 
 
-Bootstrap y HTML 5,
+Bootstrap y HTML 5.
 Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web.
 Son tecnologías que se van a utilizar para facilitar la elaboración del Fron-end del proyecto.
 
